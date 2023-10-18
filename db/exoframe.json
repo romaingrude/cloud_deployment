@@ -1,0 +1,10 @@
+{
+  "name": "romaingrude-message-database",
+  "domain": false,
+  "hostname": "romaingrude-message-database",
+  "image": "postgres:12",
+  "env": {
+    "POSTGRES_PASSWORD": "@romaingrude-postgres-password"
+  },
+  "volumes": ["romaingrude_message_database_volume:/var/lib/postgresql/data"]
+}

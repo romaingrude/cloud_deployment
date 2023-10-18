@@ -1,0 +1,10 @@
+{
+  "name": "romaingrude-message-web",
+  "domain": "romaingrude-messages.xf.mkrs.link",
+  "port": 5000,
+  "env": {
+    "APP_ENV": "PRODUCTION",
+    "POSTGRES_HOSTNAME": "romaingrude-message-database",
+    "POSTGRES_PASSWORD": "@romaingrude-postgres-password"
+  }
+}
